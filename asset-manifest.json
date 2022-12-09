@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.277a2539.css",
+    "main.js": "/react-portfolio/static/js/main.497f9fdb.js",
+    "static/media/weather-apps.jpg": "/react-portfolio/static/media/weather-apps.83b7245961747a1c7813.jpg",
+    "static/media/weather-forecast.jpg": "/react-portfolio/static/media/weather-forecast.3ef988fb2581b536f6ce.jpg",
+    "static/media/craventure-media-jozagDIvslM-unsplash.jpg": "/react-portfolio/static/media/craventure-media-jozagDIvslM-unsplash.380cab6c6db449e050d6.jpg",
+    "static/media/read-me-generator.jpg": "/react-portfolio/static/media/read-me-generator.a84086d12e023a03fda6.jpg",
+    "static/media/miles-f.jpg": "/react-portfolio/static/media/miles-f.04c2bc7b6036deaab7dd.jpg",
+    "static/media/timed-javascript-quiz.jpg": "/react-portfolio/static/media/timed-javascript-quiz.0cf3f12d474b811c4a32.jpg",
+    "static/media/work-day-scheduler.jpg": "/react-portfolio/static/media/work-day-scheduler.d1464315973803b9ef30.jpg",
+    "static/media/random-pass-generator.jpg": "/react-portfolio/static/media/random-pass-generator.c1e94e0e610c1e0e3cd5.jpg",
+    "index.html": "/react-portfolio/index.html",
+    "main.277a2539.css.map": "/react-portfolio/static/css/main.277a2539.css.map",
+    "main.497f9fdb.js.map": "/react-portfolio/static/js/main.497f9fdb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.277a2539.css",
+    "static/js/main.497f9fdb.js"
+  ]
+}
