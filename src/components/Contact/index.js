@@ -15,6 +15,10 @@ const Contact = () => {
     return regex.test(String(email).toLowerCase());
   };
 
+  const capitalizeFirstLetter = (string) => {
+    return string.charAt(0).toUpperCase() + string.slice(1);
+  };
+
   const handleValidate = (event) => {
     if (event.target.name === "email") {
       const isValid = validateEmail(event.target.value);
@@ -37,23 +41,21 @@ const Contact = () => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    const isComplete = handleValidate();
-    alert(isComplete);
+    setFormState({ ...formState, name: "", email: "", message: "" });
     window.alert("Message submitted. Thank you!");
-  };
 
   return (
-    <section className="container pt-4">
+    <section className="container pt-4 d-flex flex-column align-items-center">
       <h1 className="text-center">Contact Form</h1>
       <form
         id="contact-form"
         onSubmit={handleSubmit}
-        className="d-flex flex-column m-auto w-50"
-      >
-        <div>
-          <label className="p-1" htmlFor="name">Name:</label>
+        className="d-flex flex-column col-12">
+        <div className="">
+          <label className="p-1" htmlFor="name">
+            Name:</label>
           <input
-            className="w-100"
+            className="col-12"
             name="name"
             defaultValue={name}
             onBlur={handleValidate}
@@ -64,7 +66,7 @@ const Contact = () => {
             Email:
           </label>
           <input
-            className="w-100"
+            className="col-12"
             name="email"
             defaultValue={email}
             onBlur={handleValidate}
@@ -75,7 +77,7 @@ const Contact = () => {
             Message:
           </label>
           <textarea
-            className="w-100"
+            className="col-12"
             name="message"
             rows="5"
             defaultValue={message}
@@ -87,7 +89,7 @@ const Contact = () => {
                 <p className="error-text">{errorMessage}</p>
             </div>
         )}
-        <button className="mt-2 btn btn-dark col-2" type="submit">
+        <button className="mt-2 btn btn-dark col-4" type="submit">
           Submit
         </button>
       </form>

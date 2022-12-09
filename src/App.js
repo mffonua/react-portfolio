@@ -11,25 +11,20 @@ function App() {
   const [currentSection, setCurrentSection] = useState(sections[0]);
 
   const showSection = currentSection => {
-    switch (currentSection) {
-      case 'Portfolio':
-        return <Project />;
-      case 'Contact':
-        return <Contact />;
-      case 'Resume':
-        return <Resume />;
-      default:
-        return <About />;
+    if (currentSection === "Portfolio") {
+      return <Project />;
+    } else if (currentSection === "Contact") {
+      return <Contact />;
+    } else if (currentSection === "Resume") {
+      return <Resume />;
+    } else {
+      return <About />;
     }
-  }
+  };
   return (
-    <div className="position-relative min-vh-100 ">
-      <div className='content-wrap'>
+    <div className="main-window d-flex flex-wrap justify-content-center">
         <Header currentSection={currentSection} setCurrentSection={setCurrentSection} />
-        <main className='pb-5'>
-          {showSection(currentSection)}
-        </main>
-      </div>
+        <main>{showSection(currentSection)}</main>
       <Footer />
     </div>
   );
