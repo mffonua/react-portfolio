@@ -31,7 +31,7 @@ const Resume = () => {
         </ul>
       </div>
       <div>
-        <p>View and/or download a full copy of my resume <a href='...' target="_blank">here</a>.</p>
+        <p>View and/or download a full copy of my resume <a href='https://drive.google.com/file/d/1rSc7XkJGI6WyuoDvUfAmq_PFdmO77Zly/view?usp=sharing' target="_blank">here</a>.</p>
       </div>
     </section>
   );
