@@ -24,10 +24,10 @@ const Project = () => {
     },
     {
       id: 2,
-      title: "Weather App",
+      title: "The Metaverse",
       img: weatherApp ,
-      deployed: "https://mffonua.github.io/weather-app/",
-      git: "https://github.com/mffonua/weather-app",
+      deployed: "https://github.com/mffonua/Modern-Website",
+      git: "https://github.com/mffonua/Modern-Website",
     },
     {
       id: 3,
