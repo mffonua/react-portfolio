@@ -1,6 +1,6 @@
 import timedJavascriptQuiz from "../../assets/images/timed-javascript-quiz.jpg";
 import randomPassGenerator from "../../assets/images/random-pass-generator.jpg";
-import weatherApp from "../../assets/images/weather-apps.jpg";
+import theMetaVerse from "../../assets/images/screenshot.png";
 import workDayScheduler from "../../assets/images/work-day-scheduler.jpg";
 import readMeGenerator from "../../assets/images/read-me-generator.jpg";
 import forecastGenerator from "../../assets/images/weather-forecast.jpg";
@@ -25,7 +25,7 @@ const Project = () => {
     {
       id: 2,
       title: "The Metaverse",
-      img: weatherApp ,
+      img: theMetaVerse ,
       deployed: "https://github.com/mffonua/Modern-Website",
       git: "https://github.com/mffonua/Modern-Website",
     },
